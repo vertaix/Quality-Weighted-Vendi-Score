@@ -36,3 +36,8 @@ You can find the subset that maximizes the qVS:
 ```
 
 An example in 2d is included in a Jupyter notebook in the `examples/` folder.
+
+## Experimental Design
+
+The qVS is used for experimental design and active learning tasks, specifically active search and Bayesian optimization aiming at making diverse discoveries.
+See the respective subdirectories `diverse_search` and `diverse_bayesopt` for more details.
