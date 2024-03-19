@@ -4,7 +4,7 @@ This repository contains the implementation of the Quality-Weighted Vendi Score 
 The input of the metric is a collection of samples, a pairwise similarity function, and a score function.
 The output is a number, which can be interpreted as the effective quality sum of the samples in the collection.
 Specifically, given a positive semi-definite matrix $K \in \mathbb{R}^{n \times n}$ of similarity values and a score vector $\boldsymbol{s}$, the qVS is defined to be:
-$$\mathrm{qVS}(K, \boldsymbol{s}) = \left( \sum_i s_i / n \right) \, \exp(-\mathrm{tr}(K/n \log K/n)) = \left( \sum_i s_i / n \right) \, \exp(-\sum_{i=1}^n \lambda_i \log \lambda_i),$$
+$$\mathrm{qVS}(K, \boldsymbol{s}) = \left( \sum_i s_i / n \right) \exp(-\mathrm{tr}(K/n \log K/n)) = \left( \sum_i s_i / n \right) \exp(-\sum_{i=1}^n \lambda_i \log \lambda_i),$$
 where $\lambda_i$ are the eigenvalues of $K/n$ and $0 \log 0 = 0$.
 
 ## Usage
@@ -41,3 +41,13 @@ An example in 2d is included in a Jupyter notebook in the `examples/` folder.
 
 The qVS is used for experimental design and active learning tasks, specifically active search and Bayesian optimization aiming at making diverse discoveries.
 See the respective subdirectories `diverse_search` and `diverse_bayesopt` for more details.
+
+## Citation
+```
+@article{nguyen2024quality,
+title={Quality-Weighted Vendi Score for Diverse Experimental Design},
+author={Nguyen, Quan and Dieng, Adji Bousso},
+journal={arXiv preprint arXiv:[PENDING]},
+year={2024}
+}
+```
