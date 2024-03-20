@@ -43,7 +43,7 @@ The qVS is used for experimental design and active learning tasks, specifically 
 See the respective subdirectories `diverse_search` and `diverse_bayesopt` for more details.
 
 ## Citation
-```
+```bibtex
 @article{nguyen2024quality,
 title={Quality-Weighted Vendi Score for Diverse Experimental Design},
 author={Nguyen, Quan and Dieng, Adji Bousso},
