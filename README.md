@@ -11,7 +11,7 @@ where $\lambda_i$ are the eigenvalues of $K/n$ and $0 \log 0 = 0$.
 
 The input to `q_vendi.score` is a list of samples, a similarity function `k`, and a score function `s`.
 `k` should be symmetric and `k(x, x) = 1`.
-```
+```python
 >>> import numpy as np
 >>> from q_vendi import *
 
@@ -25,7 +25,7 @@ The input to `q_vendi.score` is a list of samples, a similarity function `k`, an
 ```
 
 You can find the subset that maximizes the qVS:
-```
+```python
 >>> selected_samples, qVS = sequential_maximize_score(samples, k, s, 3)
 
 >>> selected_samples
