@@ -7,6 +7,16 @@ Specifically, given a positive semi-definite matrix $K \in \mathbb{R}^{n \times 
 $$\mathrm{qVS}(K, \boldsymbol{s}) = \left( \sum_i s_i / n \right) \exp(-\mathrm{tr}(K/n \log K/n)) = \left( \sum_i s_i / n \right) \exp(-\sum_{i=1}^n \lambda_i \log \lambda_i),$$
 where $\lambda_i$ are the eigenvalues of $K/n$ and $0 \log 0 = 0$.
 
+<p align="center">
+</p>
+<img src="search_run.gif" alt="search_run" width="60%"/>
+
+<p align="center">
+<em>The Quality-Weighted Vendi Score gives rise to a search policy that successfully finds diverse sets of high-quality items, which are the target of our search</em>
+</p>
+
+For more information, please see our paper, [Quality-Weighted Vendi Scores For Diverse Experimental Design](https://arxiv.org/abs/[PENDING]).
+
 ## Usage
 
 The input to `q_vendi.score` is a list of samples, a similarity function `k`, and a score function `s`.
