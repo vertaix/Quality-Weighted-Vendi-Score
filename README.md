@@ -8,8 +8,8 @@ $$\mathrm{qVS}(K, \boldsymbol{s}) = \left( \sum_i s_i / n \right) \exp(-\mathrm{
 where $\lambda_i$ are the eigenvalues of $K/n$ and $0 \log 0 = 0$.
 
 <p align="center">
-</p>
 <img src="search_run.gif" alt="search_run" width="60%"/>
+</p>
 
 <p align="center">
 <em>The Quality-Weighted Vendi Score gives rise to a search policy that successfully finds diverse sets of high-quality items, which are the target of our search</em>
