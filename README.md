@@ -8,7 +8,7 @@ $$\mathrm{qVS}(K, \boldsymbol{s}) = \left( \sum_i s_i / n \right) \exp(-\mathrm{
 where $\lambda_i$ are the eigenvalues of $K/n$ and $0 \log 0 = 0$.
 
 <p align="center">
-<img src="search_run.gif" alt="search_run" width="80%"/>
+<img src="search_run.gif" alt="search_run" width="100%"/>
 </p>
 
 <p align="center">
