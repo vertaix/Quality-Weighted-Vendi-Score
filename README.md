@@ -1,6 +1,6 @@
 # Quality-Weighted Vendi Score
 
-This repository contains the implementation of the Quality-Weighted Vendi Score (qVS), a diversity metric that accounts for the quality of individual items built on top of the previously proposed [Vend Score](https://github.com/vertaix/Vendi-).
+This repository contains the implementation of the Quality-Weighted Vendi Score (qVS), a diversity metric that accounts for the quality of individual items built on top of the previously proposed [Vendi Score](https://github.com/vertaix/Vendi-Score).
 The input of the metric is a collection of samples, a pairwise similarity function, and a score function.
 The output is a number, which can be interpreted as the effective quality sum of the samples in the collection.
 Specifically, given a positive semi-definite matrix $K \in \mathbb{R}^{n \times n}$ of similarity values and a score vector $\boldsymbol{s}$, the qVS is defined to be:
