@@ -15,7 +15,7 @@ where $\lambda_i$ are the eigenvalues of $K/n$ and $0 \log 0 = 0$.
 <em>The Quality-Weighted Vendi Score gives rise to a search policy that successfully finds diverse sets of high-quality items, which are the target of our search</em>
 </p>
 
-For more information, please see our paper, [Quality-Weighted Vendi Scores For Diverse Experimental Design](https://arxiv.org/abs/[PENDING]).
+For more information, please see our paper, [Quality-Weighted Vendi Scores For Diverse Experimental Design](https://arxiv.org/abs/2405.02449), published at the International Conference on Machine Learning (ICML) 2024.
 
 ## Usage
 
@@ -54,10 +54,10 @@ See the respective subdirectories `diverse_search` and `diverse_bayesopt` for mo
 
 ## Citation
 ```bibtex
-@article{nguyen2024quality,
-title={Quality-Weighted Vendi Score for Diverse Experimental Design},
-author={Nguyen, Quan and Dieng, Adji Bousso},
-journal={arXiv preprint arXiv:[PENDING]},
-year={2024}
+@inproceedings{nguyen2024quality,
+    title={{Quality-Weighted Vendi Scores And Their Application To Diverse Experimental Design}},
+    author={Nguyen, Quan and Dieng, Adji Bousso},
+    booktitle={Proceedings of the 41st International Conference on Machine Learning},
+    year={2024},
 }
 ```
